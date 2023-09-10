@@ -52,12 +52,12 @@
 <mj-section>
     <mj-column>
         <mj-text css-class="pardot-region">
-<p style="margin-top: 0;">{{Recipient.FirstName}}</p>          
+<p style="margin-top: 0;">Hi {{Recipient.FirstName}},</p>          
 <p>Hope you're doing great! We wanted to drop a quick note to say a massive "Thank You" for stopping by the NextData booth at the Data & Analytics Summit this year. It was awesome to meet you and chat about all things data!</p>  
 <p>We're really excited about the cool ways our analytics tools could help your team—hope you found the demos and discussions as interesting as we did.</p>
 <p>If you're up for it, we'd love to keep the conversation going. How about a more in-depth chat or a personalized demo soon? Just let us know what time works for you, and we'll make it happen.</p>
 <p>Thanks again for swinging by! Looking forward to talking more soon.</p>
-<p>Best,<br>{{Recipient.Assigned User}}</p>
+<p>Best,<br>{{Sender.FirstName}} {{Sender.LastName}}</p>
         </mj-text>
     </mj-column>
 </mj-section>
@@ -74,7 +74,7 @@
             1010 Hindsight Drive, Futureville, NY, 54321, United States<br></br>
         </mj-text>
         <mj-text padding-top="10px" color="#9F9F9F" css-class="pardot-region" align="center">
-            <a href="{{Preference}}" style="color: #9F9F9F;">Update Preferences</a>&nbsp;|&nbsp;<a href="{{EmailPreferenceCenter}}" style="color: #9F9F9F;">Unsubscribe</a>
+            <a href="{{{EmailPreferenceCenter}}}" style="color: #9F9F9F;">Update Preferences</a>&nbsp;|&nbsp;<a href="{{Unsubscribe}}" style="color: #9F9F9F;">Unsubscribe</a>
         </mj-text>        
     </mj-column>
 </mj-section>
