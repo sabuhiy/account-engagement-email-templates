@@ -41,7 +41,7 @@
 <!-- Hero Start -->
 <mj-section padding-left="0" padding-right="0">
     <mj-column>
-        <mj-image href="#" src="https://www.nextinc.xyz/l/761802/2023-09-15/22dzmq/761802/1694806904HffBz3zb/event_followup.png" padding="0 20px" alt="" css-class="pardot-region" border-radius="15px"/>
+        <mj-image href="#" src="https://www.nextinc.xyz/l/761802/2023-09-18/22dzn1/761802/1695021112V5qNCNwk/event_autoresponder.png" padding="0 20px" alt="" css-class="pardot-region" border-radius="15px"/>
     </mj-column>
 </mj-section>
 <!-- Hero End -->
@@ -50,26 +50,28 @@
 <mj-raw><div pardot-repeatable></mj-raw>
 <!-- Paragraph General Start -->
 <mj-section>
-    <mj-column>
+    <mj-column width="20%" padding-bottom="20px">
         <mj-text css-class="pardot-region">
-<p style="margin-top: 0;">Hi {{Recipient.FirstName}},</p>          
-<p>It was fantastic connecting with you at the recent trade show! Thanks for expressing interest in seeing what NextData's tools can really do.</p>  
-<p>Great news! We've set up an exclusive product demo that delves deep into how our solutions can revolutionize your data analytics journey. And guess what? We'd love for you to be there.</p>
-<p>Join the select few who'll be the first to experience our latest offerings. To ensure you get a seat, simply click on the link below and fill out a quick form. It's that easy!
-</p>
-        </mj-text>
-        <mj-button href="#" target="_blank" css-class="pardot-region" background-color="#0b5cff" align="left" padding-left="0" border-radius="6px">
-        Reserve My Spot
-        </mj-button>        
-        <mj-text css-class="pardot-region">
-<p>Don't miss out on this exclusive opportunity to get ahead in the data game.</p>          
-<p>Looking forward to seeing you there!</p>  
-<p>Best,<br>{{Sender.FirstName}} {{Sender.LastName}}</p>
+            <div style="padding-top: 3px;padding-bottom: 3px;background-color:#0b5cff; text-align: center; border-top-left-radius: 10px; border-top-right-radius: 10px; color: #FFFFFF;">September</div>
+            <div style="padding-top: 20px;padding-bottom: 20px;background-color:#f7f7f8; text-align: center; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; color: #0b5cff;font-size: 42px;">23</div>
         </mj-text>
     </mj-column>
+    <mj-column width="80%" padding-left="20px" padding-right="20px">
+        <mj-text css-class="pardot-region">
+<p style="margin-top: 0;">We're thrilled to confirm your spot for NextData's exclusive product launch event! A world of cutting-edge data analytics awaits, and we can't wait to share it with you.</p>  
+<p><strong>Date:</strong> [Event Date]</p>
+<p><strong>Time:</strong> [Event Start Time] - [Event End Time]</p>
+<p><strong>Location:</strong> [Event Location/ Venue Address] (or)</p>
+<p>A reminder will be sent closer to the event date, but in the meantime, if you have any queries or require further information, please don't hesitate to get in touch.</p>
+<p>For any questions, you can reach out at event@nextinc.xyz.</p>
+<p>Warm regards,<br>NextData Event Team</p>
+
+        </mj-text>
+    </mj-column>    
 </mj-section>
 <!-- Paragraph General End  -->
 <mj-raw></div></mj-raw>
+
 
 <mj-raw><div pardot-repeatable></mj-raw>
 <!-- Footer Start -->
