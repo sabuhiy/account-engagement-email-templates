@@ -1,0 +1,88 @@
+<mjml>
+<mj-head>
+    <mj-attributes>
+        <mj-all font-family="Arial, Helvetica, Sans-Serif" />
+        <mj-section padding="20px 20px" background-color="#ffffff" />
+        <mj-text font-size="15px" line-height="22px" padding="0px" color="#000000"/>
+        <mj-button font-size="15px" line-height="22px" />
+        <mj-image padding="0px" />
+    </mj-attributes>
+    <mj-html-attributes>
+        <mj-selector path=".pardot-region div">
+            <mj-html-attribute name="pardot-region">pardot-block</mj-html-attribute>
+        </mj-selector>
+        <mj-selector path=".pardot-region td">
+            <mj-html-attribute name="pardot-region">pardot-block</mj-html-attribute>
+        </mj-selector>        
+    </mj-html-attributes>
+    <mj-style>
+        @media only screen and (max-width: 480px) {
+            .mobile-no-padding {
+                padding-right: 0!important;
+            }
+        }
+    </mj-style>
+</mj-head>
+<mj-body background-color="#ffffff">
+
+<mj-raw><div pardot-repeatable></mj-raw>
+<!-- Logo Start -->
+<mj-section padding-top="30px" padding-bottom="15px">
+    <mj-column>
+        <mj-image href="https://www.nextinc.xyz/" src="https://www.nextinc.xyz/l/761802/2023-09-02/227rl1/761802/1693694566ktw0fA0n/nextdata.svg" width="160px" alt="NextData" css-class="pardot-region"/>
+    </mj-column>
+</mj-section>
+<!-- Logo End -->
+<mj-raw></div></mj-raw>
+
+
+
+<mj-raw><div pardot-repeatable></mj-raw>
+<!-- Hero Start -->
+<mj-section padding-left="0" padding-right="0">
+    <mj-column>
+        <mj-image href="#" src="https://www.nextinc.xyz/l/761802/2023-12-01/237w4l/761802/1701441641Ys455Yoj/email_1.png" padding="0 20px" alt="" css-class="pardot-region" border-radius="15px"/>
+    </mj-column>
+</mj-section>
+<!-- Hero End -->
+<mj-raw></div></mj-raw>
+
+<mj-raw><div pardot-repeatable></mj-raw>
+<!-- Paragraph General Start -->
+<mj-section>
+    <mj-column>
+        <mj-text css-class="pardot-region">
+            <p style="margin-top: 0;">Hi {{Recipient.FirstName}},</p>
+            <p>Thank you for attending our recent product launch event! It was an exciting moment for us to showcase the capabilities of NextData's Data Analytics.</p>
+            <p>To see how this innovative solution can be specifically adapted to your business needs, we invite you to a personalized demo.</p>
+        </mj-text>
+        <mj-button href="#" target="_blank" css-class="pardot-region" background-color="#0b5cff" align="left" padding-left="0" border-radius="6px">
+        Request Your Personalized Demo
+        </mj-button>         
+        <mj-text css-class="pardot-region">
+            <p>For a recap of the event and further insights, check out our blog.</p>  
+            <p>Best,<br>{{Sender.FirstName}} {{Sender.LastName}}</p>
+        </mj-text>
+    </mj-column>
+</mj-section>
+<!-- Paragraph General End  -->
+<mj-raw></div></mj-raw>
+
+<mj-raw><div pardot-repeatable></mj-raw>
+<!-- Footer Start -->
+<mj-section padding="40px">
+    <mj-column>
+        <mj-image href="https://www.nextinc.xyz/" src="https://www.nextinc.xyz/l/761802/2023-09-02/227rl4/761802/1693694954uIhs81wQ/nextdata_dark.svg" width="100px" alt="NextData" css-class="pardot-region"/>
+        <mj-text padding-top="30px" color="#9F9F9F" css-class="pardot-region" align="center">
+            1010 Hindsight Drive, Futureville, NY, 54321, United States<br></br>
+        </mj-text>
+        <mj-text padding-top="10px" color="#9F9F9F" css-class="pardot-region" align="center">
+            <a href="{{{EmailPreferenceCenter}}}" style="color: #9F9F9F;">Update Preferences</a>&nbsp;|&nbsp;<a href="{{Unsubscribe}}" style="color: #9F9F9F;">Unsubscribe</a>
+        </mj-text>        
+    </mj-column>
+</mj-section>
+<!-- Footer End  -->
+<mj-raw></div></mj-raw>
+
+</mj-body>
+</mjml>
