@@ -1,0 +1,93 @@
+<mjml>
+<mj-head>
+    <mj-attributes>
+        <mj-all font-family="Arial, Helvetica, Sans-Serif" />
+        <mj-section padding="20px 20px" background-color="#ffffff" />
+        <mj-text font-size="15px" line-height="22px" padding="0px" color="#000000"/>
+        <mj-button font-size="15px" line-height="22px" />
+        <mj-image padding="0px" />
+    </mj-attributes>
+    <mj-html-attributes>
+        <mj-selector path=".pardot-region div">
+            <mj-html-attribute name="pardot-region">pardot-block</mj-html-attribute>
+        </mj-selector>
+        <mj-selector path=".pardot-region td">
+            <mj-html-attribute name="pardot-region">pardot-block</mj-html-attribute>
+        </mj-selector>        
+    </mj-html-attributes>
+    <mj-style>
+        @media only screen and (max-width: 480px) {
+            .mobile-no-padding {
+                padding-right: 0!important;
+            }
+        }
+    </mj-style>
+</mj-head>
+<mj-body background-color="#ffffff">
+
+<mj-raw><div pardot-repeatable></mj-raw>
+<!-- Logo Start -->
+<mj-section padding-top="30px" padding-bottom="15px">
+    <mj-column>
+        <mj-image href="https://www.nextinc.xyz/" src="https://www.nextinc.xyz/l/761802/2023-09-02/227rl1/761802/1693694566ktw0fA0n/nextdata.svg" width="160px" alt="NextData" css-class="pardot-region"/>
+    </mj-column>
+</mj-section>
+<!-- Logo End -->
+<mj-raw></div></mj-raw>
+
+
+
+<mj-raw><div pardot-repeatable></mj-raw>
+<!-- Hero Start -->
+<mj-section padding-left="0" padding-right="0">
+    <mj-column>
+        <mj-image href="#" src="https://www.nextinc.xyz/l/761802/2023-12-02/23bhlz/761802/1701522373KsZK2Ap6/day_12_reseach_paper.png" padding="0 20px" alt="" css-class="pardot-region" border-radius="15px"/>
+    </mj-column>
+</mj-section>
+<!-- Hero End -->
+<mj-raw></div></mj-raw>
+
+<mj-raw><div pardot-repeatable></mj-raw>
+<!-- Paragraph General Start -->
+<mj-section>
+    <mj-column>
+        <mj-text css-class="pardot-region">
+            <p style="margin-top: 0;">Hi {{Recipient.FirstName}},</p>
+            <p>In a world where data is king, staying ahead of the latest trends isn’t just an option - it’s a necessity. NextData is thrilled to present our groundbreaking survey report, a comprehensive analysis of the new trends shaping data analytics today.</p>
+            <p>What’s Inside the Report?</p>
+            <ul>
+                <li><strong>Exclusive Insights:</strong> Derived from in-depth interviews with 250 C-level executives from Fortune 500 companies.</li>
+                <li><strong>Future Trends:</strong> Uncover the emerging strategies and technologies leading the way in data analytics.</li>
+                <li><strong>Expert Analysis:</strong> Our team provides detailed commentary on how these trends might impact your business strategy.</li>
+            </ul>
+        </mj-text>
+        <mj-button href="#" target="_blank" css-class="pardot-region" background-color="#0b5cff" align="left" padding-left="0" border-radius="6px">
+        Download the Full Report
+        </mj-button>         
+        <mj-text css-class="pardot-region">
+            <p>Whether you're a data scientist, a business strategist, or a C-level executive, this survey report is an essential read to stay informed and ahead in the fast-evolving world of data analytics.</p>  
+            <p>Best,<br>{{Sender.FirstName}} {{Sender.LastName}}</p>
+        </mj-text>
+    </mj-column>
+</mj-section>
+<!-- Paragraph General End  -->
+<mj-raw></div></mj-raw>
+
+<mj-raw><div pardot-repeatable></mj-raw>
+<!-- Footer Start -->
+<mj-section padding="40px">
+    <mj-column>
+        <mj-image href="https://www.nextinc.xyz/" src="https://www.nextinc.xyz/l/761802/2023-09-02/227rl4/761802/1693694954uIhs81wQ/nextdata_dark.svg" width="100px" alt="NextData" css-class="pardot-region"/>
+        <mj-text padding-top="30px" color="#9F9F9F" css-class="pardot-region" align="center">
+            1010 Hindsight Drive, Futureville, NY, 54321, United States<br></br>
+        </mj-text>
+        <mj-text padding-top="10px" color="#9F9F9F" css-class="pardot-region" align="center">
+            <a href="{{{EmailPreferenceCenter}}}" style="color: #9F9F9F;">Update Preferences</a>&nbsp;|&nbsp;<a href="{{Unsubscribe}}" style="color: #9F9F9F;">Unsubscribe</a>
+        </mj-text>        
+    </mj-column>
+</mj-section>
+<!-- Footer End  -->
+<mj-raw></div></mj-raw>
+
+</mj-body>
+</mjml>
