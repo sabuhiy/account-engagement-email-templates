@@ -1,0 +1,75 @@
+<mjml>
+<mj-head>
+    <mj-attributes>
+        <mj-all font-family="Arial, Helvetica, Sans-Serif" />
+        <mj-section padding="20px 20px" background-color="#ffffff" />
+        <mj-text font-size="15px" line-height="22px" padding="0px" color="#000000"/>
+        <mj-button font-size="15px" line-height="22px" />
+        <mj-image padding="0px" />
+    </mj-attributes>
+    <mj-html-attributes>
+        <mj-selector path=".pardot-region div">
+            <mj-html-attribute name="pardot-region">pardot-block</mj-html-attribute>
+        </mj-selector>
+        <mj-selector path=".pardot-region td">
+            <mj-html-attribute name="pardot-region">pardot-block</mj-html-attribute>
+        </mj-selector>        
+    </mj-html-attributes>
+    <mj-style>
+        @media only screen and (max-width: 480px) {
+            .mobile-no-padding {
+                padding-right: 0!important;
+            }
+        }
+    </mj-style>
+</mj-head>
+<mj-body background-color="#ffffff">
+
+<mj-raw><div pardot-repeatable></mj-raw>
+<!-- Logo Start -->
+<mj-section padding-top="30px" padding-bottom="15px">
+    <mj-column>
+        <mj-image href="https://www.nextinc.xyz/" src="https://www.nextinc.xyz/l/761802/2023-09-02/227rl1/761802/1693694566ktw0fA0n/nextdata.svg" width="160px" alt="NextData" css-class="pardot-region"/>
+    </mj-column>
+</mj-section>
+<!-- Logo End -->
+<mj-raw></div></mj-raw>
+
+<mj-raw><div pardot-repeatable></mj-raw>
+<!-- Paragraph General Start -->
+<mj-section>
+    <mj-column>
+        <mj-text css-class="pardot-region">
+            <p style="margin-top: 0;">Hi {{Recipient.FirstName}},</p>
+            <p>This is a gentle reminder that your consent to receive communications from NextData is about to expire. We don’t want you to miss out on the valuable content and updates we regularly share.</p>
+        </mj-text>
+        <mj-button href="#" target="_blank" css-class="pardot-region" background-color="#0b5cff" align="left" padding-left="0" border-radius="6px">
+        Renew Your Consent Now
+        </mj-button>         
+        <mj-text css-class="pardot-region">
+            <p>We're committed to providing value while respecting your data preferences. Renewing your consent ensures you keep getting tailored content and updates as per your interests.</p>  
+            <p>Best,<br>{{Sender.FirstName}} {{Sender.LastName}}</p>
+        </mj-text>
+    </mj-column>
+</mj-section>
+<!-- Paragraph General End  -->
+<mj-raw></div></mj-raw>
+
+<mj-raw><div pardot-repeatable></mj-raw>
+<!-- Footer Start -->
+<mj-section padding="40px">
+    <mj-column>
+        <mj-image href="https://www.nextinc.xyz/" src="https://www.nextinc.xyz/l/761802/2023-09-02/227rl4/761802/1693694954uIhs81wQ/nextdata_dark.svg" width="100px" alt="NextData" css-class="pardot-region"/>
+        <mj-text padding-top="30px" color="#9F9F9F" css-class="pardot-region" align="center">
+            1010 Hindsight Drive, Futureville, NY, 54321, United States<br></br>
+        </mj-text>
+        <mj-text padding-top="10px" color="#9F9F9F" css-class="pardot-region" align="center">
+            <a href="{{{EmailPreferenceCenter}}}" style="color: #9F9F9F;">Update Preferences</a>&nbsp;|&nbsp;<a href="{{Unsubscribe}}" style="color: #9F9F9F;">Unsubscribe</a>
+        </mj-text>        
+    </mj-column>
+</mj-section>
+<!-- Footer End  -->
+<mj-raw></div></mj-raw>
+
+</mj-body>
+</mjml>
